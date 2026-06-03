@@ -2,7 +2,7 @@ let startTime;
 let waiting = false;
 
 let trial = 0;
-let totalTrials = 5;
+let totalTrials = 10;
 
 let reactionTimes = [];
 
@@ -59,7 +59,7 @@ box.addEventListener("click", function () {
 
         waiting = false;
 
-        // AFTER 5 TRIALS
+        // AFTER 10 TRIALS
         if (trial === totalTrials) {
 
             // Calculate average
